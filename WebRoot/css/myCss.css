@@ -1,0 +1,256 @@
+@CHARSET "UTF-8";
+
+body{ background-color:#F1F1F1; }
+.title a:link{ color: white; }
+.title a:visited { color:white; text-decoration:none; }
+.title a:hover { color:white; text-decoration:none; }
+.pad_left_zero {
+	padding-left:0;
+}
+.pad_right_zero {
+	padding-right:0;
+}
+.fframe {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 15px;
+	//style="background-color:#DDC;"
+	
+}
+
+.header {
+	background-color:#3B3B3B;
+	color: #ffffff;
+	font-size: 35px;
+	padding-left: 0;
+	padding-right:0;
+}
+
+.leader {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0;
+	padding-right:0;
+	margin:0;
+	
+}
+.inLeader {
+	padding-left: 0;
+	padding-right:0;
+}
+
+.inLeader li {
+	background-color:#EAEAEA;
+	border-radius: 4px;
+}
+
+.mySearch {
+	float:left;
+	border-left:15px solid #F1F1F1;
+	padding-left:0;
+	padding-right:0;
+	padding-bottom:15px;
+	background-color:white;
+}
+
+.fg {
+	padding:15px;
+	padding-bottom:0;
+	display:inline-block;
+}
+.cIcon {
+	position: absolute;
+    top: 25px;
+    right:20px;
+}
+.mySearchButton {
+	margin:15px;
+	margin-bottom:0;
+}
+
+.show_table {
+	//border: 1px solid red;
+	border-left:15px solid #F1F1F1;
+	float:left;
+	padding-left:0;
+	padding-right:0;
+	margin-top:15px;
+	background-color: #EAEAEA;
+	
+}
+.show_table li {
+	list-style:none;
+}
+
+.search_div {
+	//border: 1px solid red;
+	border-left:15px solid #F1F1F1;
+	float:right;
+	padding-left:0;
+	padding-right:0;
+	margin-top:10px;
+	background-color: white;
+}
+
+.search_table_row {
+	//border: 1px solid red;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    
+}
+.flight_info {
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:15px;
+	padding-right:0;
+}
+.flight_airline {
+	height: 10px;
+	font-size: 15px;
+}
+
+.flight_name {
+	
+	height: 10px;
+	font-size: 12px;
+}
+.flight_airplane {
+	color: #999;
+	font-size: 12px;
+    line-height: 1.5;
+}
+.sTime_info {
+	padding-left:0;
+	padding-right:0;
+	text-align: right;
+}
+.sTimeShow {
+	font-size: 20px;
+    line-height: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-weight: bold;
+    
+}
+.arrow {
+	width: 86px;
+    height: 40px;
+    //background: url(//pic.c-ctrip.com/flight/searchlist/flight_arrow.png) no-repeat center right;
+    background: url(../img/flight_arrow.png) no-repeat center right;
+}
+.log {
+	width: 400px;
+    height: 300px;
+	background: url(../img/airplane4.png) no-repeat center right;
+	float:left;
+}
+.show_seat {
+	width: 400px;
+    height: 1200px;
+	background: url(../img/seat.png) no-repeat center;
+}
+.show_arrow{
+	padding-left:5;
+	padding-right:0;
+}
+.discount_show {
+	color: red;
+	font-size: 18px;
+    line-height: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-weight: bold;
+}
+.price_show {
+	padding-left:5;
+	padding-right:0;
+	text-align: right;
+}
+.money_show {
+	font-size: 12px;
+    color: #333;
+    font-family: Arial,Simsun;
+    vertical-align: top;
+    margin-right: 2px;
+    line-height: 22px;
+}
+.moneyshow {
+	font-size: 30px;
+	font-family: tahoma;
+	color: #FF6600;
+    line-height: 100%;
+    border-collapse: collapse;
+}
+.qi {
+	font-style: normal;
+    vertical-align: bottom;
+    font-family: arial,"Hiragino Sans GB",simsun,sans-serif;
+    color: #4D4D4D;
+    font-size: 12px;
+    line-height: 1.5;
+    border-collapse: collapse;
+}
+.bookbutton{
+	border-color: #ff9913;
+	background-color: #FF9900;
+}
+.book_info {
+	padding-left:15px;
+	padding-right:0;
+}
+.white_block {
+	//border: 1px solid red;
+	border-left:15px solid #F1F1F1;
+	float:left;
+	padding-left:0;
+	padding-right:0;
+	margin-top:0px;
+	padding-bottom:15px;
+	background-color: white;
+}
+
+
+.divide_line {
+	width:0px; 
+	height:250px; 
+	margin-top:30px;
+	border:1px solid gray;
+	border-right:0px;
+	background-color: gray;
+}
+
+
+.login_form {
+	padding: 30px 30px 30px 30px;
+}
+.regist_form {
+	padding: 00px 30px 30px 30px;
+}
+.passage {
+	padding-top:15px;
+}
+
+.passages {
+	background-color: #FAEBD7;
+	margin-top:15px;
+	padding-bottom:15px;
+}
+.book_show_info {
+	float:right;
+	padding-left:15;
+	padding-right:0;
+	margin-top:0px;
+	padding-bottom:15px;
+	background-color: #D1EEEE;
+}
+.book_button {
+	margin:15px 0px 0px 15px;
+	border-color: #ff9913;
+	background-color: #FF9900;
+	float:right;
+}
+.book_viwe_show {
+	border-left:15px solid #F1F1F1;
+	background-color: white;
+	margin-bottom:15px;
+	float:right;
+}
